@@ -29,7 +29,7 @@ stopping_criteria,
 )
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='DTsync')
+    parser = argparse.ArgumentParser(description='PN_with_CP')
     parser.add_argument('--seed', type=int, default=7, help='the randomness of a simulation')
     parser.add_argument('--p', type=int, default=1, help='probability of requiring labels')
     parser.add_argument('--ifinter_CP', type=int, default=1, help='whether running intermittent CP')
