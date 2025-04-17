@@ -30,7 +30,7 @@ stopping_criteria,
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='DTsync')
+    parser = argparse.ArgumentParser(description='PN_with_CP')
     parser.add_argument('--seed', type=int, default=17, help='the randomness of a simulation')
     parser.add_argument('--ratio_list', type=float, nargs='+', 
                     default=[0.1, 0.1, 0.1], 
