@@ -1,8 +1,10 @@
 # Online Conformal Probabilistic Numerics via Adaptive Edge-Cloud Offloading
 This repository contains code for "[Online Conformal Probabilistic Numerics via Adaptive Edge-Cloud Offloading](https://arxiv.org/pdf/2503.14453)" -- Qiushuo Hou, Sangwoo Park, Matteo Zecchin, Yunlong Cai, Guanding Yu, and Osvaldo Simeone
 
-![system_model](https://github.com/qiushuo0913/PN_with_CP_code/blob/main/figure_1.png)  
-*Figure 1: At each round $t$, a user submits a linear system defined by the pair $(A_t, b_t)$ to an edge device. Given the available computing budget $I_t$, the edge device employs a probabilistic linear solver (PLS), obtaining a highest-probability-density (HPD) set $\mathcal{C}_t$ for the true solution $x^*_t = A_t^{-1}b_t$. The set $\mathcal{C}_t$ is returned in a timely fashion to the user. The proposed method, OCP-PLS, ensures long-term coverage guarantees (\ref{eq:coverage_guarantee}) for the HPD sets $\mathcal{C}_t$, addressing model misspecification in PLS. To this end, OCP-PLS allows for sporadic communication between the cloud and the edge.*
+<div align="center">
+  <img src="https://github.com/qiushuo0913/PN_with_CP_code/blob/main/figure_1.png" alt="system_model" width="300">
+</div>
+Figure 1: At each round t, a user submits a linear system defined by the pair $(A_t, b_t)$ to an edge device. Given the available computing budget $I_t$, the edge device employs a probabilistic linear solver (PLS), obtaining a highest-probability-density (HPD) set $\mathcal{C}_t$ for the true solution $x^\*_t = A_t^{-1}b_t$. The set $\mathcal{C}_t$ is returned in a timely fashion to the user. The proposed method, OCP-PLS, ensures long-term coverage guarantees for the HPD sets $\mathcal{C}_t$, addressing model misspecification in PLS. To this end, OCP-PLS allows for sporadic communication between the cloud and the edge.
 
 ## Dependencies
 Python 3.9.19  
